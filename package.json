@@ -1,0 +1,39 @@
+{
+  "name": "illimi",
+  "version": "1.0.0",
+  "description": "illimi is a modern web framework for building fast and scalable web applications with ease.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@illimi/core": "^1.0.0",
+    "@illimi/runtime": "^1.0.0",
+    "@illimi/vite": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Rapha Panchi",
+      "email": "raphapanchi@gmail.com",
+      "url": "https://github.com/ralphxp"
+    },
+    {
+      "name": "Codizium Team",
+      "email": "hell.codizium@gmail.com",
+      "url": "https://github.com/codizium"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codizium/illimi.git"
+  }
+}
